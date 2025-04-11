@@ -32,8 +32,8 @@ class ServiceProvider extends Provider
     {
         $al = AssetList::getInstance();
 
-        $al->register('javascript', 'juxtapose', 'js/juxtapose.min.js', [], 'zweifel_theme');
-        $al->register('css', 'juxtapose', 'css/juxtapose.css', [], 'zweifel_theme');
+        $al->register('javascript', 'juxtapose', 'js/juxtapose.min.js', [], 'compare_images');
+        $al->register('css', 'juxtapose', 'css/juxtapose.css', [], 'compare_images');
         $al->registerGroup('juxtapose', [
             ['javascript', 'juxtapose'],
             ['css', 'juxtapose']
