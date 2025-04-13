@@ -1,0 +1,5 @@
+{
+  "name": "bitter/compare_images",
+  "type": "concrete5-package",
+  "description": "Display two images side by side with a draggable slider to compare them interactively."
+}
